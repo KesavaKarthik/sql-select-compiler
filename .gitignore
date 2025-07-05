@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+*.egg-info/
+.env
+*.java
+
+# The v1 prototype is kept locally for comparison, not published.
+legacy/

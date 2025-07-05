@@ -1,0 +1,3 @@
+# Runtime dependency. Only needed to read a live MySQL schema; the analyzer,
+# the test suite and `--demo` all run without it.
+mysql-connector-python>=8.0

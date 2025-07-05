@@ -1,0 +1,17 @@
+[project]
+name = "sql-query-analyzer"
+version = "2.0.0"
+description = "Parses SQL SELECT statements, validates them against a live schema, and generates matching Java beans."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.mypy]
+python_version = "3.10"
+files = ["sql_analyzer.py", "cli.py"]
+warn_unused_ignores = true
+warn_redundant_casts = true
+disallow_untyped_defs = false
+ignore_missing_imports = true
